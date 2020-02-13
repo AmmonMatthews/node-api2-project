@@ -4,8 +4,8 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       return knex('comments').insert([
         {text: "Let your workings remain a mystery. Just show people the results.", post_id: 1},
-        {text: "True mastery can be gained by letting things go their own way. It can't be gained by interfering.", post_id: 1 },
-        {text: "Not-knowing is true knowledge. Presuming to know is a disease.", post_id: 2 },
+        {text: "True mastery can be gained by letting things go their own way. It can't be gained by interfering.", post_id: 2 },
+        {text: "Not-knowing is true knowledge. Presuming to know is a disease.", post_id: 3 },
         {text: "Success or failure: which is more destructive?", post_id: 4 },
         {text: "When two great forces oppose each other the victory will go to the one that knows how to yield.", post_id: 4 },
         {text: "Things arise and she let's them come; things disappear and she let's them go.", post_id: 4 },
